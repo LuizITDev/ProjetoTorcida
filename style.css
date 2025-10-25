@@ -1,0 +1,29 @@
+body{
+box-sizing: border-box;    
+box-shadow: white;
+background-image: url('https://media.giphy.com/media/2SzNRmWhnWWSnBh214/giphy.gif');
+text-align: center;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: antiquewhite;
+color: antiquewhite;
+height: 100px;
+
+    
+}
+
+footer{
+    color: antiquewhite;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* fundo escuro com transparência */
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-family: Arial, sans-serif
+
+}
+
+
+ 
