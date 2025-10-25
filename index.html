@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Torcida Organizada</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Torcida organizada</h1>
+        <p>Preencha os campos </p>
+
+        <form id = "cadastro"action="#" method="post">
+
+
+        <label for="Nome">nome</label> 
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        
+        <label for="CPF"> CPF </label>
+        <input type="text" id="cpf"  name="cpf" placeholder="000.000.00-00" required>
+
+        <label for="time">Time</label>
+        <select id="time" name="time" required>
+
+            <option value="">Time do Coração</option>
+
+            <option value="1">Palmeiras</option>
+            <option value="2">Flamengo</option>
+            <option value="3">Cruzeiro</option>
+            <option value="4">Mirasol</option>
+            <option value="5">Bahia</option>
+            <option value="6">Botafogo</option>
+            <option value="7">Fluminense</option>
+            <option value="8">Vasco</option>
+            <option value="9">São Pauçp</option>
+            <option value="10">Red Bull Bragantino</option>
+            <option value="11">Corinthinas</option>
+            <option value="12">Grêmio</option>
+            <option value="13">Ceará</option>
+            <option value="14">Internacional</option>
+            <option value="15">Atlético-MG</option>
+            <option value="16">Santos</option>
+            <option value="17">Vitória</option>
+            <option value="18">Juventudes</option>
+            <option value="19">Fortaleza</option>
+            <option value="20">Sport</option>
+            
+        </select>
+
+        <label for="camisa">Possui a Camisa Oficial ?</label>
+        
+        <div class="radio-group">
+            <label><input type="radio" name="opcao" value="sim"> SIM</label>
+            <label><input type="radio" name="opcao" value="nao">NÃO</label>
+
+
+        </div>
+
+        <label for="frequencia">Quantas vezes você vai ao estádio ao ano ?</label>
+        <select id="frequencia" name="frequencia" required>
+            <option value="1">1-5</option>
+            <option value="2">5-10</option>
+            <option value="3">Todos os Jogos</option>
+
+ 
+
+        </select>
+
+
+        <label for="socio">Sócio Torcedor ? </label> 
+
+        <div class="radio-group-socio"></div>
+        <label><input type="radio" name="opcao" value="sim"> SIM</label>
+        <label><input type="radio" name="opcao" value="nao">NÃO</label>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    </div>
+    
+</body>
+</html>
