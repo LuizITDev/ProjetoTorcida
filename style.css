@@ -1,9 +1,9 @@
 body{
 box-sizing: border-box;    
 box-shadow: white;
-background-image: url('https://media.giphy.com/media/2SzNRmWhnWWSnBh214/giphy.gif');
+background-image: url('https://media1.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NjN4bmdqcWx0eXhjOXhmN3Y1dDUwZnpsZ2xzN3c3dXVoYXIxbTF1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCRncQNeSrIaZNMmft/giphy.webp');
 text-align: center;
-background-size: cover;
+background-size:auto;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: antiquewhite;
 color: antiquewhite;
