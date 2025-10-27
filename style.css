@@ -1,6 +1,6 @@
 body{
 box-sizing: border-box;    
-box-shadow: white;
+box-shadow: 0 0 10px white;
 background-image: url('https://media1.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NjN4bmdqcWx0eXhjOXhmN3Y1dDUwZnpsZ2xzN3c3dXVoYXIxbTF1dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qCRncQNeSrIaZNMmft/giphy.webp');
 text-align: center;
 background-size:auto;
@@ -11,6 +11,19 @@ height: 100px;
 
     
 }
+
+
+
+ .box {
+      width: 80%;
+      max-width: 600px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6); /* fundo semi-transparente */
+      box-shadow: 0 0 10px white;
+      border-radius: 10px;
+    }
+
 
 footer{
     color: antiquewhite;
